@@ -16,25 +16,24 @@
           {
          "options": {
             "version": "12"
-         },
-         "plan": "heroku-postgresql"
+         
       }
    ],
    "env": {
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "6898228879:AAGcQs92MFg08BeYKVAq6AhP8liv4TCaxm8"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "28639618"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "103325ab172853b906de45819f43bc28"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -44,34 +43,23 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1868693368"
-      },
-      "BOT_ID": {
-         "description": "Your bot ID.. Use any other bot to get it.",
-         "required": true,
-         "value": "1868693368"
-      },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
-      },
-      "HEROKU_APP_NAME": {
-        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
-        "required": false
+         "value": "5227766525"
+      
+     
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "The_Ghost_Hunter"
+         "value": "Luffyyyyyyyyyyyyyyyyyyyyyyyy"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "Warbotzchat"
+         "value": "Forceeeeeee"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://copeko1554:f7FIK2Rxe3BGw0tJ@cluster0.eu2phdw.mongodb.net/?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -109,7 +97,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1868693368"
+         "value": "5227766525"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
